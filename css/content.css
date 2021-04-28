@@ -1,0 +1,37 @@
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+}
+
+section h2 {
+    font-size: 2.2rem;
+}
+
+section h4 {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+section p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+#promo {
+    height: 200px;
+}
+
+.content {
+    padding: 32px 32px;
+}
+
+.active {
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
+}
+
+.hide {
+    display: none;
+}
