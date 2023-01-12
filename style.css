@@ -82,7 +82,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 40px 0;
 }
@@ -94,7 +95,8 @@ body {
 section {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
 }
 
 section img {
@@ -124,17 +126,23 @@ section span {
 }
 
 section section {
-    max-width: 800px;
+    width: 100%;
 }
 
 .images {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1440px;
+    width: 100%;
     margin-top: 40px;
     gap: 40px;
 }
+
+.images img {
+    width: 100%;
+}
+
+
 
 section a {
     text-decoration: none;
@@ -158,5 +166,12 @@ section a:hover {
     width: 30%;
     height: 1px;
     background-color: #c7c7c7;
-    margin: 80px 0;
+    margin: 60px 0;
+}
+
+@media only screen and (max-width: 1490px) {
+    .main-case {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
