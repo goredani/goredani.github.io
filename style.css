@@ -72,7 +72,8 @@ body {
 .main {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     gap: 120px;
     margin: 0 auto;
     padding: 40px 0;
