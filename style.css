@@ -170,8 +170,14 @@ section a:hover {
 }
 
 @media only screen and (max-width: 1490px) {
-    .main-case {
+    .main-case, .main {
         padding-left: 20px;
         padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .main a {
+        width: 100%;
     }
 }
