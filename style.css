@@ -60,6 +60,11 @@ p, h1, h2, h3, h4, h5, h6 {
     isolation: isolate;
 }
 
+a {
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
 
 /* MAIN CSS */
 
@@ -145,7 +150,7 @@ section section {
 
 
 
-section a {
+.button-link {
     text-decoration: none;
     background: #2E2E2E;
     text-align: center;
@@ -159,7 +164,7 @@ section a {
     line-height: 120%;
 }
 
-section a:hover {
+.button-link:hover {
     background-color: #727272;
 }
 
