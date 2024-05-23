@@ -1,88 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex">
-    <title>Daniel Gore | MSCI</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <div class="main-case">
-        
-            
-            <section>
-                <h1>MSCI</h1>
-                <p class="description">
-                    MSCI Beon is a single, open platform that harnesses advanced proprietary technology to connect disparate sources and aims to improve institutional investors’ current portfolio analysis capabilities, helping make better-informed and timely decisions across the entire investment process.
-
-                </p>
-
-                <p>
-                    <span>Team</span>
-                    <br>
-                    8 UX/UI designers in an international team, several development teams working mostly with Java and front-end technologies.
-                </p>
-                
-            </section>
-            <div class="divider"></div>
-            <section>
-
-                <h2>Chart designer</h2>
-                <p>
-                    <span>Problem</span>
-                    <br>
-                    The flow of creating new charts was a bit too complicated for our users. We wanted to create a more seamless experience so our users could create their reports faster in the future.
-                </p>
-                <p>
-                    <span>Tasks</span>
-                    <br>
-                    <ul>
-                        <li>Redesign the flow of the chart creator.</li>
-                        <li>Create a new UI for it.</li>
-                    </ul>
-                </p>
-                <p>
-                    <span>Constraints</span>
-                    <br>
-                    We had to take into account that we couldn't change the underlying chart render engine.
-                </p>
-
-               
-                    <p>
-                    <span>Conclusion</span>
-                        <br>
-                        We managed to decrease the time that our users had to spend on creating new widget.
-                    </p>
-                
-
-            </section>
-
-            
-            <div class="images">
-                
-                <img src="./img/msci_0.png" alt="">
-                <img src="./img/msci_1.png" alt="">
-                <img src="./img/msci_2.png" alt="">
-                <img src="./img/msci_3.png" alt="">
-                <img src="./img/msci_4.png" alt="">
-                
-            </div>
-
-            
-
-            
-            
-
-            
-
-            
-        
-
-        
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel Gore | MSCI - BEON</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h4><a href="./index.html">Daniel Gore</a></h4>
+      <a href="./index.html">Works</a>
     
-</body>
+    </nav>
+
+    <header class="msci-header">
+      <div id="header-section">
+        <h1>MSCI - BEON</h1>
+        <p>
+          MSCI Beon is a single, open platform that harnesses advanced proprietary technology to connect disparate sources and aims to improve institutional investors’ current portfolio analysis capabilities, helping make better-informed and timely decisions across the entire investment process.
+        </p>
+        <figure>
+          <img
+            src="img/msci_chart1.png"
+            alt=""
+          />
+        </figure>
+
+        <div class="horizontal-container">
+          <div class="card">
+            <h3>Product Goals</h3>
+            <ul>
+              <li>Enhance and expand the existing features of MSCI BEON.</li>
+              <li>
+                Establish and upkeep the component library for MSCI BEON.
+              </li>
+              <li>Enhance and standardize the design across other MSCI products.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>My Tasks</h3>
+            <ul>
+              <li>Participate in product meetings with stakeholders.</li>
+              <li>Design the user interface for new features.</li>
+              <li>Manage the component library and collaborate with developers on updates.</li>
+              
+            </ul>
+          </div>
+        </div>
+      
+    </header>
+
+    <section id="main-section">
+      <h2>Highlighted Project</h2>
+      <div class="highlight">
+        <aside>
+          <div class="content">
+            <h3>Refactoring the chart designer</h3>
+            <p>
+              The chart designer feature in BEON was highly utilized by our users, allowing them to generate custom charts from MSCI financial data. However, the older version of this tool was cumbersome and slow, prompting us to initiate a redesign.
+            </p>
+            <p>
+              Initially, we overhauled the feature's architecture and user flow to streamline chart creation. Through multiple iterations, we arrived at a version that satisfied all project stakeholders. Subsequently, we developed the user interface adhering to our design system and component library.
+            </p>
+            <p>
+              During development, we encountered performance challenges, necessitating adjustments to certain features. Although the final product deviated slightly from our initial vision, it significantly improved user experience, simplifying tasks for our users.
+            </p>
+          </div>
+        </aside>
+        <div class="highlight-img">
+          <figure>
+            <img
+              onclick="on(this)"
+              
+              src="img\msci_chart0.png"
+              alt="The user flow of the chart designer"
+              class="pointer"
+            />
+          </figure>
+          <figure>
+            <img
+              onclick="on(this)"
+              src="img\msci_chart1.png"
+              alt="Chart designer 1"
+              class="pointer"
+            />
+          </figure>
+          <figure>
+            <img
+              onclick="on(this)"
+              src="img\msci_chart2.png"
+              alt="Chart designer 2"
+              class="pointer"
+            />
+          </figure>
+          <figure>
+            <img
+              onclick="on(this)"
+              src="img\msci_chart3.png"
+              alt="Chart designer 3"
+              class="pointer"
+            />
+          </figure>
+          <figure>
+            <img
+              onclick="on(this)"            
+              src="img\msci_chart4.png"
+              alt="Chart designer 4"
+              class="pointer"
+            />
+          </figure>
+        </div>
+      </div>
+      
+    </section>
+
+      <section id="retro">
+        <h2>Retro</h2>
+
+        <div class="horizontal-container">
+          <div class="card">
+            <h3>What went well?</h3>
+            <ul>
+              <li>
+                Maintaining open communication and collaboration with developers was crucial. My technical understanding of the underlying processes facilitated this collaboration significantly.
+              </li>
+              <li>
+                A larger design team, encompassing diverse specializations, offered valuable insights for enhancing various aspects of our projects.
+              </li>
+              <li>Collaborating on the design system across different products and teams</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>What didn't go well?</h3>
+            <ul>
+              <li>Encountering limited information about certain products or features posed challenges to our work at times.</li>
+              <li>
+                Occasional constraints from the development team required us to prioritize certain improvements over others, based on backend limitations.
+              </li>
+              
+            </ul>
+          </div>
+          <div class="card">
+            <h3>What have I learned?</h3>
+            <p>
+              Sometimes you need to create features and designs from minimal information.
+            </p>
+            <p>
+              Navigating design politics and effectively communicating design decisions to stakeholders were essential skills for influencing project outcomes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="other-projects">
+        <h2>Other Projects</h2>
+
+        <div class="horizontal-container">
+          <a href="optimonk.html">
+            <div class="card">
+              <h3>OptiMonk</h3>
+              <img src="img/optimonk_cover.png" alt="OptiMonk">
+            </div>
+          </a>
+          <a href="gitential.html">
+            <div class="card">
+              <h3>Gitential</h3>
+              <img src="img/gitential_dashboard2.png" alt="Gitential">
+            </div>
+          </a>
+          <a href="lensa_dev.html">
+              <div class="card">
+                <h3>Lensa - UX Engineer</h3>
+                <img src="img/lensa_dev_cover.png" alt="MSCI">
+              </div>
+          </a>
+        </div>
+    </section>
+
+    <footer>Daniel Gore | UX Engineer | 2024</footer>
+    <div id="overlay" onclick="off()">
+      <img src="" alt="valami" />
+    </div>
+    <script>
+      function on(e) {
+        const overlayImg = document.querySelector("#overlay img");
+        overlayImg.src = e.src;
+        overlayImg.alt = e.alt;
+        document.getElementById("overlay").style.display = "grid";
+      }
+
+      function off() {
+        document.getElementById("overlay").style.display = "none";
+      }
+    </script>
+  </body>
 </html>

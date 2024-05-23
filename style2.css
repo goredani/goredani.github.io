@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/*
+    2. Remove default margin
+  */
+* {
+    margin: 0;
+}
+
+/*
+    3. Allow percentage-based heights in the application
+  */
+html, body {
+    height: 100%;
+}
+
+/*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*
+    6. Improve media defaults
+  */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+/*
+    7. Remove built-in form typography styles
+  */
+input, button, textarea, select {
+    font: inherit;
+}
+
+/*
+    8. Avoid text overflows
+  */
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root, #__next {
+    isolation: isolate;
+}
+
+a {
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+
+/* MAIN CSS */
+
+body {
+    font-family: 'Open Sauce One', SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #2E2E2E;
+    background-color: #eeeef2;
+}
+
+h1 {
+    font-weight: 900;
+    line-height: 100%;
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: 900;
+    line-height: 100%;
+    font-size: 2rem;
+    color: #2E2E2E
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    margin-bottom: 8px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    padding: 0 1rem;
+    position: sticky;
+    top: 0;
+    background-color: rgb(245 245 247);
+    z-index: 9;
+}
+
+nav h4 {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    gap: 120px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+
+
+.main-case {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.main img {
+    margin-bottom: 28px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+}
+
+section img {
+    margin-bottom: 0;
+}
+
+section .date {
+    font-size: 16px;
+    color: #909091;
+    margin-bottom: 8px;
+}
+
+
+
+section p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+section span {
+    font-weight: 600;
+}
+
+section section {
+    width: 100%;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.images img {
+    width: 100%;
+}
+
+
+
+.button-link {
+    background-color: #2E2E2E;
+    padding: 0.5rem 1rem;
+    color: #eeeef2;
+    font-weight: 600;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.button-link:hover {
+    background-color: #727272;
+}
+
+.divider {
+    width: 30%;
+    height: 1px;
+    background-color: #c7c7c7;
+    margin: 60px 0;
+}
+
+@media only screen and (max-width: 1490px) {
+    .main-case, .main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .main a {
+        width: 100%;
+    }
+}

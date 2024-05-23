@@ -1,83 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daniel Gore | Gitential</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <div class="main-case">
-        
-            
-            <section>
-                <h1>Gitential</h1>
-                <p class="description">
-                    The Gitential application has been created to make software development measurable and enable data-driven improvements across your projects and teams by focusing on 4 pillars of Code Quality, Team Collaboration, Cost-Effective Project Deliveries and On-Time Software Releases.
-
-                </p>
-
-                <p>
-                    <span>Team</span>
-                    <br>
-                    Single designer with a front-end development team.
-                </p>
-                
-            </section>
-            <div class="divider"></div>
-            <section>
-
-                <h2>Dashboard</h2>
-                <p>
-                    <span>Problem</span>
-                    <br>
-                    Create an interface for the MVP of the product so our first customers could use the service.
-                </p>
-                <p>
-                    <span>Tasks</span>
-                    <br>
-                    <ul>
-                        <li>Create the user flow</li>
-                        <li>Create wireframes</li>
-                        <li>Create the UI</li>
-                        <li>Create a seamless onboarding so our users can integrate their repositories</li>
-                        <li>Test the UI with our first clients</li>
-                    </ul>
-                </p>
-
-               
-                <p>
-                    <span>Constraints</span>
-                        <br>
-                        Some of our features were incomplete and we had to rush to make it to market in time.
-                </p>
-
-                <p>
-                    <span>Conclusion</span>
-                        <br>
-                        Most of our users were not aware of the metrics and how we are calculating them. (eg. performance) We had to find a more understandable way to provide this information to them.
-                </p>
-                
-
-            </section>
-
-            
-            <div class="images">
-                
-               
-                <img src="./img/gitential_1.png" alt="Gitential - Dashboard">
-                <img src="./img/gitential_2.png" alt="Gitential - Project Screen">
-                <img src="./img/gitential_3.png" alt="Gitential - Add new repository - step 1">
-                <img src="./img/gitential_4.png" alt="Gitential - Add new repository - step 2">
-               
-                
-            </div>
-
-   
-    </div>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h4><a href="./index.html">Daniel Gore</a></h4>
+      <a href="./index.html">Works</a>
     
-</body>
+    </nav>
+
+    <header class="gitential-header">
+      <div id="header-section">
+        <h1>Gitential</h1>
+        <p>
+          Gitential has been created to make software development measurable and
+          enable data-driven improvements across your projects and teams by
+          focusing on 4 pillars of Code Quality, Team Collaboration,
+          Cost-Effective Project Deliveries and On-Time Software Releases.
+        </p>
+        <figure>
+          <img
+            src="https://goredani.github.io/img/gitential_2.png"
+            alt=""
+          />
+        </figure>
+
+        <div class="horizontal-container">
+          <div class="card">
+            <h3>Project Goals</h3>
+            <ul>
+              <li>Create and launch the MVP version of the product</li>
+              <li>
+                Gather as much user feedback as possible, not just UX feedback
+                but feedback on the product itself
+              </li>
+              <li>Acquire the first paying customers</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>My Tasks</h3>
+            <ul>
+              <li>Interview with our early adopter users</li>
+              <li>Create user flows, wireframes for the MVP</li>
+              <li>Create and apply the design to the UI</li>
+              <li>Create the related pattern library</li>
+              <li>
+                Gather user feedbacks and analytics and iterate on the design
+                and features
+              </li>
+            </ul>
+          </div>
+        </div>
+      
+    </header>
+
+    <section id="main-section">
+      <h2>Highlights</h2>
+      <div class="highlight">
+        <aside>
+          <div class="content">
+            <h3>Dashboard</h3>
+            <p>
+              An effective analytical service offers users a comprehensive
+              overview of their projects while also providing the option to
+              access detailed information when desired. To achieve this balance,
+              we have designed our dashboard to display only essential
+              information and highlight key insights we deem most valuable.
+            </p>
+            <p>
+              For users who wish to delve deeper into their projects and the
+              associated developers, the system is equipped to provide detailed
+              data, advanced filtering options, and export functionalities.
+              Additionally, our service includes customizable options, allowing
+              users to tailor the dashboard and reports to their specific needs,
+              ensuring a personalized and efficient analytical experience.
+            </p>
+          </div>
+        </aside>
+        <div class="highlight-img">
+          <figure>
+            <img
+              onclick="on(this)"
+              width="800"
+              src="img/gitential_dashboard1.png"
+              alt=""
+              class="pointer"
+            />
+          </figure>
+          <figure>
+            <img
+              onclick="on(this)"
+              width="800"
+              src="img/gitential_dashboard2.png"
+              alt=""
+              class="pointer"
+            />
+          </figure>
+        </div>
+      </div>
+      <div class="highlight">
+        <aside>
+          <div class="content">
+            <h3>Data Visualization</h3>
+            <p>
+              One of the main challenges I faced was deciding how to present
+              specific types of data and information. I had to consider the
+              capabilities of our system, the functionalities offered by our
+              data visualization framework, and whether the chosen
+              visualizations effectively communicated the necessary insights.
+            </p>
+            <p>
+              To enhance user experience further, I incorporated customizable
+              options, allowing users to add more charts with custom settings.
+              This flexibility empowers users to personalize their dashboards,
+              tailoring the experience to their individual preferences.
+            </p>
+          </div>
+        </aside>
+        <div class="highlight-img">
+          <figure>
+            <img src="img/gitential_chart1.png" alt="" />
+          </figure>
+          <figure>
+            <img src="img/gitential_chart2.png" alt="" />
+          </figure>
+          <figure>
+            <img src="img/gitential_chart3.png" alt="" />
+          </figure>
+        </div>
+      </div>
+      <div class="highlight">
+        <aside>
+          <div class="content">
+            <h3>Onboarding</h3>
+            <p>
+              In response to user feedback, we identified the onboarding phase
+              as one of the most challenging aspects, particularly when users
+              needed to connect their repositories to our service. This process
+              was complicated by varying requirements and security
+              configurations across different services.
+            </p>
+            <p>
+              To address this challenge, our objective was to simplify the
+              entire onboarding process. By minimizing the number of required
+              steps and providing helpful guidance through helper texts, we
+              aimed to decrease churn rates.
+            </p>
+          </div>
+        </aside>
+
+        <div class="highlight-img">
+          <figure>
+            <img
+              onclick="on(this)"
+              src="img/gitential_onboarding1.png"
+              alt=""
+              class="pointer"
+            />
+          </figure>
+          <figure>
+            <img
+              onclick="on(this)"
+              src="img/gitential_onboarding2.png"
+              alt=""
+              class="pointer"
+            />
+          </figure>
+          <figure>
+            <img
+              onclick="on(this)"
+              src="img/gitential_onboarding3.png"
+              alt=""
+              class="pointer"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+      <section id="retro">
+        <h2>Retro</h2>
+
+        <div class="horizontal-container">
+          <div class="card">
+            <h3>What went well?</h3>
+            <ul>
+              <li>
+                A small team with great communication equals fast iteration
+                speed
+              </li>
+              <li>
+                Integrating changes in the design and the product features based
+                on actual user interviews
+              </li>
+              <li>I really enjoyed working on a technical-focused project</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>What didn't go well?</h3>
+            <ul>
+              <li>Hard to get users and convince them to give feedback</li>
+              <li>
+                Different opinions about where to go with the development based
+                on the user feedback
+              </li>
+              <li>Communicating how and what are we measuring</li>
+              <li>
+                Developers don't like to be measured, we can't quantify
+                creativity
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>What have I learned?</h3>
+            <p>
+              It's important to listen the user feedbacks properly. Not just
+              what UX problems do they have while using the site but
+              fundamentally, what do they question or they don't understand
+              about your product. It would have been better if we would
+              communicate how do we mean under developer productivity and how do
+              we measure it.
+            </p>
+            <p>
+              This is more like a product issue, but it's better to find a
+              problem that needs to be solved first, rather than create a
+              solution and trying to find the problem that it can solve later
+              on.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="other-projects">
+        <h2>Other Projects</h2>
+
+        <div class="horizontal-container">
+          <div class="card">
+            <h3>OptiMonk</h3>
+          </div>
+          <div class="card">
+            <h3>Lensa</h3>
+          </div>
+          <div class="card">
+            <h3>MSCI</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>Daniel Gore | UX Engineer | 2024</footer>
+    <div id="overlay" onclick="off()">
+      <img src="" alt="valami" />
+    </div>
+    <script>
+      function on(e) {
+        const overlayImg = document.querySelector("#overlay img");
+        overlayImg.src = e.src;
+        overlayImg.alt = e.alt;
+        document.getElementById("overlay").style.display = "grid";
+      }
+
+      function off() {
+        document.getElementById("overlay").style.display = "none";
+      }
+    </script>
+  </body>
 </html>
