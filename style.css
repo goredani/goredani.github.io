@@ -62,7 +62,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Open Sauce One', SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: 'Author', sans-serif;
     color: #2E2E2E;
     background-color: #eeeef2;
     width: 100%;
@@ -71,6 +71,7 @@ body {
 
 p {
     margin-bottom: 1rem;
+    font-size: 1.25rem;
 }
 
 h1 {
@@ -85,6 +86,7 @@ ul {
 
 ul li {
     margin-bottom: 0.5rem;
+    font-size: 1.25rem;
 }
 
 nav {
@@ -98,15 +100,18 @@ nav {
     top: 0;
     background-color: rgb(245 245 247);
     z-index: 9;
+    font-size: 1.25rem;
 }
 
 nav h4 {
     margin: 0;
+
 }
 
 nav ul {
     display: flex;
     gap: 2rem;
+
 
 }
 
@@ -130,7 +135,7 @@ h4 {
 header h1 {
     font-weight: 900;
     line-height: 100%;
-    margin: 5rem 0;
+    margin: 5rem 0 2.5rem 0;
     text-align: center;
     color: white;
 
@@ -140,7 +145,7 @@ header p {
     font-size: 1.25rem;
     margin-bottom: 5rem;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     max-width: 1000px;
     color: white;
 }
@@ -236,7 +241,7 @@ aside h3 {
 }
 
 aside p {
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 .highlight {
@@ -324,6 +329,7 @@ footer {
 }
 
 .proto-button {
+    font-size: 1.25rem;
     background-color: #2E2E2E;
     padding: 0.5rem 1rem;
     color: #eeeef2;

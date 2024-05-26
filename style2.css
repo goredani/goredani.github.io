@@ -63,19 +63,20 @@ p, h1, h2, h3, h4, h5, h6 {
 a {
     color: #2E2E2E;
     text-decoration: none;
+
 }
 
 
 /* MAIN CSS */
 
 body {
-    font-family: 'Open Sauce One', SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: 'Author', sans-serif;
     color: #2E2E2E;
     background-color: #eeeef2;
 }
 
 h1 {
-    font-weight: 900;
+    font-weight: 600;
     line-height: 100%;
     font-size: 2rem;
 }
@@ -93,6 +94,7 @@ h3 {
 
 h4 {
     margin-bottom: 8px;
+    font-size: 1.25rem;
 }
 
 nav {
@@ -110,6 +112,10 @@ nav {
 
 nav h4 {
     margin: 0;
+}
+
+nav a {
+    font-size: 1.25rem;
 }
 
 .main {
@@ -158,6 +164,7 @@ section .date {
 
 
 section p {
+    font-size: 1.25rem;
     margin-top: 16px;
     margin-bottom: 16px;
     line-height: 1.5;
@@ -187,6 +194,7 @@ section section {
 
 
 .button-link {
+    font-size: 1.25rem;
     background-color: #2E2E2E;
     padding: 0.5rem 1rem;
     color: #eeeef2;
