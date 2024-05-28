@@ -20,6 +20,7 @@
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    height: 100%;
 }
 
 /*
@@ -72,6 +73,7 @@ body {
 p {
     margin-bottom: 1rem;
     font-size: 1.25rem;
+    text-wrap: pretty;
 }
 
 h1 {
@@ -105,14 +107,11 @@ nav {
 
 nav h4 {
     margin: 0;
-
 }
 
 nav ul {
     display: flex;
     gap: 2rem;
-
-
 }
 
 h2 {
@@ -138,7 +137,6 @@ header h1 {
     margin: 5rem 0 2.5rem 0;
     text-align: center;
     color: white;
-
 }
 
 header p {
@@ -159,7 +157,6 @@ header, #retro, #other-projects {
     display: flex;
     flex-direction: column;
     width: 100vw;
-
 }
 
 header {
